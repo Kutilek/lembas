@@ -109,9 +109,3 @@ impl Enemy
         return enemy;
     }
 }
-
-pub fn all()
-{
-    let mut prd = Enemy::create(rand::random());
-    prd.info();
-}
