@@ -71,8 +71,11 @@ impl Player
                 println!("You don't have that many points.. Please come again");
                 points = get_points(stre, re);
             }
-            *re -= points;
-
+            else 
+            {
+                *re -= points;
+            }
+            
             return points;
         }
 
